@@ -7,12 +7,17 @@
   <body>
     <script>
       const links = [
-        "https://example.com/1",
-        "https://example.com/2",
-        "https://example.com/3"
+        "https://drive.google.com/file/d/1_70LebBBPjfddoKCaPAngifiQN-FWRG4/view?usp=drive_link",
+"https://drive.google.com/file/d/18u90XqJf5rFIjgXgdtKk03BqV6DE_2XA/view?usp=drive_link",
+"ttps://drive.google.com/file/d/15AhhMHuL6LY_qYYW2K93vLpF4lSw0g-9/view?usp=drive_link",
+"ttps://drive.google.com/file/d/1JzaM8TvSm6_U040NqAFRj9egoS_Ww2Hy/view?usp=drive_link",
+"ttps://drive.google.com/file/d/1Wj8jGzqK8tkZ7aFOHO-92kMEusjBpmiy/view?usp=drive_link",
+"ttps://drive.google.com/file/d/1uxZWCLhEwYRWOeZeT_2Q9nDQ_FUvmRwe/view?usp=drive_link",
+"ttps://drive.google.com/file/d/1dAJvTN3Ud2c_37mmd-lTVReTERbJZT3h/view?usp=drive_link"
       ];
       const randomLink = links[Math.floor(Math.random() * links.length)];
       window.location.href = randomLink;
     </script>
   </body>
 </html>
+
