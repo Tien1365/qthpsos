@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Random Redirect</title>
+  </head>
+  <body>
+    <script>
+      const links = [
+        "https://example.com/1",
+        "https://example.com/2",
+        "https://example.com/3"
+      ];
+      const randomLink = links[Math.floor(Math.random() * links.length)];
+      window.location.href = randomLink;
+    </script>
+  </body>
+</html>
